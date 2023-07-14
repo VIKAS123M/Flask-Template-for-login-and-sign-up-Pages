@@ -1,0 +1,77 @@
+#signuptitle{
+    display: flex;
+    justify-content: center;
+}
+#signupcreds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+#signupuser{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+#usernamesignupbox{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#passwordsign{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+#passsignup{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#repass{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+#reenterpass{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+#signupsubmit{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='signuppagestyle.css')}}"/>
+    <script src="{{url_for('static',filename='signupbuttonfunc.js')}}"></script>
+</head>
+<body>
+    <div id="fullsignup">
+        <h1 id="signuptitle">Sign up!! New user</h1>
+        <div id="signupcreds">
+            <form action="{{url_for('signup_page')}}" method="post">
+                <label id="signupuser">Username or Email</label>
+                <input type="text" id="usernamesignupbox" name="signupname"/>
+                <label id="passwordsign">Password</label>
+                <input type="password" id="passsignup" name="signuppass"/>
+                <label id="repass">Re-Enter Password</label>
+                <input type="password" id="reenterpass" name="signuprepass"/>
+                <button type="submit" id="signupsubmit" onclick="buttonclick()">Submit!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMD</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='loginpagestyle.css')}}">
+</head>
+<body>
+    <div id="entirelogin">
+        <h1 id="titletag">Welcome to IMD</h1>
+        <div id="loginforum">
+            <form action="{{url_for('login_func')}}" method="post">
+                <label id="usertitle">Username</label>
+                <input type="text" id="inputfield" name="loginuser">
+                <label id="passtitle">Password</label>
+                <input type="password" id="passfield" name="loginpass">
+                <button type="submit" id="submitbutton">Submit</button>
+            </form>
+                <a href="{{url_for('signup_page')}}" id="newuserlink">New User? Click here!</a>
+        </div>
+    </div>
+</body>
+</html>

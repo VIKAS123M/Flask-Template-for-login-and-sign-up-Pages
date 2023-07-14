@@ -1,0 +1,65 @@
+#titletag{
+    display: flex;
+    justify-content: center;
+}
+#loginforum{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+}
+#usertitle{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+#inputfield{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#passtitle{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+#passfield{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#submitbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#newuserlink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
